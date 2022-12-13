@@ -33,6 +33,7 @@ footer {
   width: 100%;
   border-bottom: solid 1px rgba(16, 16, 16, 0.2);
   height: 10px;
+  background-color: #F7F7F7;
 }
 
 #about {
@@ -74,6 +75,7 @@ footer {
   height: 70px;
   table-layout: fixed;
   padding-top: 15px;
+  background-color: #F7F7F7;
 }
 
 #website-logo-name {
@@ -153,6 +155,7 @@ footer {
   table-layout: fixed;
   width: 100%;
   display: flex;
+  background-color: #F7F7F7;
 }
 
 .borderless-select {
@@ -234,20 +237,31 @@ footer {
 
 #products-container {
   padding-top: 80px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: #F8F8F8;
 }
 
 #left-side {
-  float: left;
   width: 10%;
+  background-color: #F8F8F8;
 }
 
 #right-side {
-  float: right;
-  width: 80%;
+  width: 66%;
+  padding-right: 220px;
+  background-color: #F8F8F8;
 }
 
-#products-row {
+.products-row {
   display: flex;
+  justify-content: space-between;
+  background-color: #F8F8F8;
+}
+
+#ad2 {
+  width: 100%;
 }
 
 #first-row {
