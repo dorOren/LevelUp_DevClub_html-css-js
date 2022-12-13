@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="dor oren" />
+    <title>mimic webpage task</title>
+
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="box">
+      <header>
+        <div id="top" class="inline-container table">
+          <h5 id="about" class="table-cell">About Store</h5>
+          <nav id="navigation1" class="navigation table">
+            <ul id="top-navigation" class="table-row">
+              <li class="table-cell">
+                <span><a href="#">Payment</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">Shipping</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">Terms</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">Refunds</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">Help Center</a></span>
+              </li>
+            </ul>
+          </nav>
+          <span id="language1" class="language table-cell">
+            <h5 id="language-name">English</h5>
+            <img id="language-img" src="/assets/images/flag-english.png" />
+          </span>
+        </div>
+        <div id="logo-and-search-bar" class="table">
+          <div id="website-logo-name" class="table-cell">
+            <img id="logo" src="/assets/images/pic-left-top.png" />
+            <h2 id="website-name">WINE</h2>
+          </div>
+          <div id="complex-input-box" class="table-cell">
+            <select id="search-category-selector">
+              <option>ALL CATEGORIES</option>
+            </select>
+            <input
+              id="search-input"
+              type="text"
+              placeholder="Search for products"
+            />
+            <button id="search-btn" type="submit">
+              <img id="search-img" src="/assets/images/pic-right-top.png" />
+            </button>
+          </div>
+          <div id="shopping-bag-items" class="table-cell">
+            <div class="table-row">
+              <p class="table-cell">3 Items <b>(180$)</b></p>
+              <img
+                class="table-cell"
+                id="shopping-bag-img"
+                src="/assets/images/pic-right-right-top.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div id="categories-and-settings" class="table">
+          <div id="categories" class="table-row">
+            <img
+              id="select-category-img"
+              class="table-cell"
+              src="/assets/images/option-lines-symbol.PNG"
+            />
+            <select class="borderless-select">
+              <option></option>
+            </select>
+            <h5 id="select-category" class="table-cell">Select Category</h5>
+          </div>
+          <nav id="popular-categories" class="navigation table">
+            <ul id="top-pages-navigation" class="table-row">
+              <p class="table-cell">Popular:</p>
+              <li class="table-cell">
+                <span><a href="#">Blender</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">Blender1</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">Blender2</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">Blender3</a></span>
+              </li>
+            </ul>
+          </nav>
+          <nav id="settings" class="navigation table">
+            <ul id="top-pages-navigation" class="table-row">
+              <li class="table-cell">
+                <span><a href="#">Orders</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">Wishlist</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">Account</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">Logout</a></span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <div id="background-img">
+      <input
+        id="weird-input"
+        type="text"
+        placeholder="     HOME - CATALOG - OLD WINE"
+      />
+      <p>
+        Sort By <strong>Popularity</strong>
+        <select class="borderless-select"></select>
+      </p>
+    </div>
+    <div class="box">
+      <main>
+        <section id="products-container">
+          <aside id="left-side">
+            <div id="filtering-sidebar">
+              <ul>
+                <li>
+                  <h4>Price</h4>
+                  <div id="slider-price">600$</div>
+                  <div id="slider"></div>
+                  <div id="slider-min-price">60$</div>
+                  <div id="slider-max-price">2000$</div>
+                </li>
+              </ul>
+            </div>
+            <img id="ad1" class="ad" src="/assets/images/pic-left-bottom.png" />
+          </aside>
+          <aside id="right-side">
+            <div id="products-row">
+              <img class="product-image" src="/assets/images/wine-1.png" />
+              <img class="product-image" src="/assets/images/wine-2.png" />
+              <img class="product-image" src="/assets/images/wine-3.png" />
+            </div>
+            <img
+              id="ad2"
+              class="ad"
+              src="/assets/images/How-to-Choose-a-Cooking-Wine-R01.png"
+            />
+            <div id="products-row">
+              <img class="product-image" src="/assets/images/wine-4.png" />
+              <img class="product-image" src="/assets/images/wine-5.png" />
+              <img class="product-image" src="/assets/images/wine-1.png" />
+            </div>
+          </aside>
+        </section>
+        <nav id="page-navigation"></nav>
+      </main>
+
+      <footer id="footer">
+        <div id="first-row" class="table">
+          <nav id="navigation1" class="navigation table">
+            <ul id="bottom-pages-navigation" class="table-row">
+              <li class="table-cell">
+                <span><a href="#">HOME</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">CATALOG</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">ORDERS</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">WISHLIST</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">ACCOUNT</a></span>
+              </li>
+            </ul>
+          </nav>
+          <div id="language2" class="language table-cell">
+            <h5 id="language-name">English</h5>
+            <img id="language-img" src="/assets/images/flag-english.png" />
+          </div>
+        </div>
+        <div id="second-row" class="table">
+          <nav id="webpage-policies" class="navigation table">
+            <ul id="bottom-navigation" class="table-row">
+              <li class="table-cell">
+                <span><a href="#">Payment</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">Shipping</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">Terms</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">Refunds</a></span>
+              </li>
+              <li class="table-cell">
+                <span><a href="#">Help Center</a></span>
+              </li>
+            </ul>
+          </nav>
+          <h6 id="copyrights" class="table-cell">
+            Copyrights 2022 &copy;Dor Oren, All rights reserved
+          </h6>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
